@@ -1,15 +1,14 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "frontend/package.json",
-      "use": "@vercel/next"
+  "services": {
+    "frontend": {
+      "root": "frontend",
+      "framework": "nextjs"
     },
-    {
-      "src": "backend/src/server.js",
-      "use": "@vercel/node"
+    "backend": {
+      "root": "backend",
+      "entrypoint": "src/server.js"
     }
-  ],
+  },
   "rewrites": [
     {
       "source": "/api/(.*)",
