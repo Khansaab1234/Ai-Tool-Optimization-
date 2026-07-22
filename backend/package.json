@@ -1,0 +1,19 @@
+{
+  "name": "aset-tronics-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ASET TRONICS - AI CNC Programming & Tool Optimization API (Express.js)",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": ["cnc", "manufacturing", "machining", "express", "api"],
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
