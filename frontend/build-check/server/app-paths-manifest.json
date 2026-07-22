@@ -1,12 +1,12 @@
 {
-  "/part/page": "app/part/page.js",
   "/page": "app/page.js",
   "/tools/page": "app/tools/page.js",
-  "/cnc/page": "app/cnc/page.js",
-  "/ppc/page": "app/ppc/page.js",
-  "/optimization/page": "app/optimization/page.js",
-  "/assistant/page": "app/assistant/page.js",
+  "/part/page": "app/part/page.js",
   "/operations/page": "app/operations/page.js",
+  "/cnc/page": "app/cnc/page.js",
+  "/optimization/page": "app/optimization/page.js",
   "/calculator/page": "app/calculator/page.js",
-  "/reports/page": "app/reports/page.js"
+  "/reports/page": "app/reports/page.js",
+  "/assistant/page": "app/assistant/page.js",
+  "/ppc/page": "app/ppc/page.js"
 }
