@@ -1,3 +1,3 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = { reactStrictMode: true, distDir: 'build-check' };
+const nextConfig = { reactStrictMode: true };
 module.exports = nextConfig;
